@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>プライバシーポリシー｜わちゃパ</title><meta name="theme-color" content="#15102D"><link rel="icon" href="icons/icon-192.png">
-<meta name="description" content="なんでもアリーナ・ワードウルフ・NGワードなど8つのパーティーゲーム。iPhone・Android・PCのブラウザで、部屋コードを使ってみんなで遊べます。">
+<meta name="description" content="なんでもアリーナ・ワードウルフ・NGワードなど8つのパーティーゲーム。iPhone・Android・PCのブラウザで、部屋コードを使ってみんなで遊べます。"><link rel="alternate" hreflang="ja" href="privacy.html"><link rel="alternate" hreflang="en" href="privacy.en.html"><link rel="alternate" hreflang="ko" href="privacy.ko.html"><link rel="alternate" hreflang="zh-CN" href="privacy.zh.html">
 <style>
 :root{--night:#15102D;--card:#221F45;--lantern:#FFB347;--berry:#FF5C8A;--mint:#5CE1B9;--soft:#E9E6FF;--muted:#A6A1D0;--paper:#F6EBD9;--ink:#1E1A3A}
 *{box-sizing:border-box}body{margin:0;background:var(--night);color:var(--soft);font-family:"BIZ UDPGothic","Yu Gothic UI","Meiryo","Hiragino Sans","Noto Sans JP",sans-serif;line-height:1.8}
@@ -13,9 +13,9 @@ h3{font-size:18px;margin:20px 0 4px}a{color:var(--mint)}.box{background:var(--ca
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px}
 .c{background:var(--paper);color:var(--ink);border-radius:14px;padding:10px;text-align:center;border:3px solid #8E86B8}.c.star{border-color:var(--berry)}
 .c img{width:84px;height:84px;object-fit:contain}.c b{display:block}.c small{display:block;font-size:12px;line-height:1.5;color:#3B3560;text-align:left;margin-top:4px}
-.c .n{color:var(--berry);font-size:12px}ul{padding-left:1.2em}.muted{color:var(--muted);font-size:14px}footer{text-align:center;color:var(--muted);font-size:13px;padding:20px}
+.c .n{color:var(--berry);font-size:12px}header .langs{font-size:13px}header .langs a{margin-left:6px;font-weight:400}ul{padding-left:1.2em}.muted{color:var(--muted);font-size:14px}footer{text-align:center;color:var(--muted);font-size:13px;padding:20px}
 </style></head><body>
-<header><a href="./">わちゃパ</a><a href="howto.html">遊び方</a><a href="about.html">このサイトについて</a><a href="privacy.html">プライバシー</a><a class="play" href="./">遊ぶ</a></header>
+<header><a href="./">わちゃパ</a><a href="howto.html">遊び方</a><a href="about.html">このサイトについて</a><a href="privacy.html">プライバシー</a><span class="langs">🌐 <a href="privacy.html" style="color:var(--soft)">日本語</a> <a href="privacy.en.html">English</a> <a href="privacy.ko.html">한국어</a> <a href="privacy.zh.html">中文</a></span><a class="play" href="./">遊ぶ</a></header>
 <main><h1>プライバシーポリシー</h1>
 <p>「わちゃパ」（このサイトのウェブ版、PC 版、Android アプリを含みます。以下「本サービス」）における利用者の情報の取り扱いについて説明します。</p>
 <h2>1. 運営者が集める情報</h2><p>運営者は、利用者の個人情報を収集・保存しません。本サービスは運営者のサーバーを使用しません。</p>
@@ -23,12 +23,9 @@ h3{font-size:18px;margin:20px 0 4px}a{color:var(--mint)}.box{background:var(--ca
 <p>入力した名前やゲームの内容は、同じ部屋に参加している端末の間でのみやり取りされ、運営者に送られることはありません。</p>
 <ul><li><b>オンライン</b>：端末どうしを WebRTC（PeerJS）で直接つなぎます。相手を見つけるために PeerJS の仲介サーバー（0.peerjs.com）と通信し、直接つながらない回線では PeerJS の中継サーバーを経由します。このとき、通信に必要な IP アドレスなどが仲介・中継サーバーと相手の端末に伝わります。</li>
 <li><b>近くで（Android アプリ）</b>：Google の Nearby Connections（Bluetooth・Wi-Fi）で近くの端末と直接つながります。近くの端末を見つけるために「付近のデバイス」「位置情報」の許可を求めますが、位置情報そのものを取得・記録・送信することはありません。</li></ul>
-<h2>3. 端末に保存する情報</h2><p>次回の入力を省くため、入力した名前と最後に入れた部屋コードを端末内（アプリの保存領域、またはブラウザの localStorage）に保存します。ウェブ版はすぐ起動できるよう、ゲームのファイルを端末に保存します。いずれもアプリの削除やブラウザのデータ削除で消えます。</p>
+<h2>3. 端末に保存する情報</h2><p>次回の入力を省くため、入力した名前、最後に入れた部屋コード、表示する言語を端末内（アプリの保存領域、またはブラウザの localStorage）に保存します。ウェブ版はすぐ起動できるよう、ゲームのファイルを端末に保存します。いずれもアプリの削除やブラウザのデータ削除で消えます。</p>
 <h2>4. 広告</h2>
-<p>本サービスは Google LLC の広告配信サービス（Android アプリでは Google AdMob、ウェブ版では Google AdSense）を利用しています。これらのサービスは、広告の配信・効果測定・不正防止のために、Cookie、広告ID、端末やブラウザの情報、おおよその位置（IP アドレスから推定）などを使用する場合があります。第三者配信事業者は Cookie を使用して、利用者が本サービスや他のサイトに過去にアクセスした際の情報に基づいて広告を配信します。</p>
-<ul><li><a href="https://policies.google.com/technologies/partner-sites?hl=ja">Google のサービスを使用するサイトやアプリから収集した情報の Google による使用</a></li>
-<li><a href="https://policies.google.com/technologies/ads?hl=ja">Google の広告に関するポリシー</a></li><li><a href="https://policies.google.com/privacy?hl=ja">Google プライバシーポリシー</a></li></ul>
-<p>パーソナライズ広告は <a href="https://adssettings.google.com/">広告設定</a> で無効にできます（Android は端末の「設定 → Google → 広告」からも変更できます）。ヨーロッパなど同意が必要な地域では、広告を表示する前に同意を確認し、あとから「広告の設定」で変更できます。</p>
+<p>本サービスは広告を表示しています。Android アプリでは Google LLC の Google AdMob、ウェブ版・PC 版では忍者ツールズ株式会社の忍者AdMax を利用しています。これらのサービスは、広告の配信・効果測定・不正防止のために、Cookie、広告ID、端末やブラウザの情報、おおよその位置（IP アドレスから推定）などを使用する場合があります。第三者配信事業者は Cookie を使用して、利用者が本サービスや他のサイトに過去にアクセスした際の情報に基づいて広告を配信することがあります。</p><ul><li><a href="https://policies.google.com/technologies/partner-sites?hl=ja">Google のサービスを使用するサイトやアプリから収集した情報の Google による使用</a></li><li><a href="https://policies.google.com/privacy?hl=ja">Google プライバシーポリシー</a></li><li><a href="https://www.shinobi.jp/etc/policy.html">忍者ツールズ プライバシーポリシー</a></li></ul><p>Google のパーソナライズ広告は <a href="https://adssettings.google.com/">広告設定</a> で無効にできます（Android は端末の「設定 → Google → 広告」からも変更できます）。ヨーロッパなど同意が必要な地域では、広告を表示する前に同意を確認し、あとから「広告の設定」で変更できます。</p>
 <h2>5. 対象年齢</h2><p>本サービスは13歳以上の方を対象としています。</p>
 <h2>6. 改定</h2><p>本ポリシーは必要に応じて改定します。改定後の内容は本ページに掲載した時点で効力を持ちます。</p>
 <h2>7. お問い合わせ</h2><p><a href="https://github.com/0818134y-rgb/-1/issues">こちら（GitHub）</a> へお寄せください。</p>
