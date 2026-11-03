@@ -1,0 +1,26 @@
+﻿わちゃパ ウェブ版（iPhone・スマホ・PC のブラウザ用） v0.7.2
+==================================================
+iPhone では、このフォルダの中身を HTTPS のサイトに置いて Safari で開きます。
+「ホーム画面に追加」すると、アプリのように全画面で遊べます（App Store は通しません）。
+Android のアプリ（「オンライン」）や PC 版と同じ部屋に、部屋コードで入れます。
+
+■ 1回目だけ：サイトに置く（GitHub Pages・無料）
+  1. GitHub で新しいリポジトリを作る（例：partygame。Public）
+  2. 「Add file」→「Upload files」で、このフォルダの“中身”をすべてドラッグ
+     （index.html・app.js・style.css・config.js・manifest.webmanifest・sw.js・lib・img・icons）→「Commit changes」
+  3. リポジトリの「Settings」→「Pages」→ Branch を「main」「/(root)」にして「Save」
+  4. 1〜2分後に出る https://（ユーザー名）.github.io/partygame/ が遊ぶ場所です
+  ※ Netlify Drop（app.netlify.com/drop）にフォルダごとドラッグしても置けます
+
+■ iPhone に入れる
+  1. Safari で上のアドレスを開く
+  2. 共有ボタン（□に↑）→「ホーム画面に追加」→「追加」
+  3. ホーム画面の「わちゃパ」から起動
+  ※ iOS 16.4 以降がおすすめ（遊んでいる間、画面が消えないようにできます）
+
+■ 更新するとき
+  新しい版のファイルで上書きアップロード → iPhone ではアプリを2回開き直すと新しい版になります
+
+■ 広告
+  この URL で AdSense の審査に通ったら config.js に ID を書いてアップロードし直してください。
+  PC 版の site.txt にこの URL を書くと、PC の遊ぶ.bat もこのページを開くようになります。
