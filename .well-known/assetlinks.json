@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.zen.partygame",
+    "sha256_cert_fingerprints": [
+      "7A:3B:26:C1:CB:A1:1A:6E:B8:BE:A2:0B:E1:D9:8F:57:37:28:67:97:48:F5:F4:0A:FA:1C:F4:BD:B4:C4:D7:A3"
+    ]
+  }
+}]
